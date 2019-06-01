@@ -14,16 +14,9 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "2423f2fa-8ca5-4ce0-abe2-2b57710d403e",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1600x900",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "e092c88a-6ae0-4b28-9fe1-81c5951c9bbc",
       "comment": "",
-      "command": "click",
+      "command": "check",
       "target": "id=MainContent_Radio3",
       "targets": [],
       "value": ""
@@ -33,20 +26,6 @@
       "command": "echo",
       "target": "Clicked 單程",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "a0646bc4-8de0-45b5-99c9-d34f1b8e339e",
-      "comment": "",
-      "command": "click",
-      "target": "id=MainContent_txt_To",
-      "targets": [
-        ["id=MainContent_txt_To", "id"],
-        ["name=ctl00$MainContent$txt_To", "name"],
-        ["css=#MainContent_txt_To", "css:finder"],
-        ["xpath=//input[@id='MainContent_txt_To']", "xpath:attributes"],
-        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr[3]/td[2]/div/input", "xpath:idRelative"],
-        ["xpath=//td[2]/div/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "a7e0ff96-78aa-4ebc-bd06-1b696257c145",
