@@ -23,16 +23,16 @@
     }, {
       "id": "e092c88a-6ae0-4b28-9fe1-81c5951c9bbc",
       "comment": "",
-      "command": "clickAt",
+      "command": "click",
       "target": "id=MainContent_Radio3",
-      "targets": [
-        ["id=MainContent_Radio3", "id"],
-        ["name=ctl00$MainContent$rbn_Segment", "name"],
-        ["css=#MainContent_Radio3", "css:finder"],
-        ["xpath=//input[@id='MainContent_Radio3']", "xpath:attributes"],
-        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr/td/fieldset/div/input", "xpath:idRelative"],
-        ["xpath=//fieldset/div/input", "xpath:position"]
-      ],
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04d6aa75-ea63-44d0-95c2-24d6a8a07859",
+      "comment": "",
+      "command": "echo",
+      "target": "Clicked 單程",
+      "targets": [],
       "value": ""
     }, {
       "id": "a0646bc4-8de0-45b5-99c9-d34f1b8e339e",
@@ -69,6 +69,13 @@
       "target": "xpath=//li[contains(.,'東京 (成田機場) - NRT')]",
       "targets": [],
       "value": "matched"
+    }, {
+      "id": "60c4d271-7146-47a2-97e5-c1d1e4fb1bad",
+      "comment": "",
+      "command": "echo",
+      "target": "Finished NRT",
+      "targets": [],
+      "value": ""
     }, {
       "id": "a3335c17-df27-45fe-9b25-aa4d9589a29b",
       "comment": "",
