@@ -14,9 +14,16 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "0d2aef2b-e6c9-4d4a-a48b-f0ddd79dea0a",
+      "id": "6b20f3a0-9632-4283-9533-5e8d87c61835",
       "comment": "",
-      "command": "clickAt",
+      "command": "runScript",
+      "target": "document.getElementById(\"cboxOverlay\").style.visibility='hidden';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e856d692-b7c5-4ff9-b765-de49ab1cd204",
+      "comment": "",
+      "command": "click",
       "target": "xpath=//div[@id='cookies']/div/a",
       "targets": [
         ["linkText=我接受", "linkText"],
@@ -27,6 +34,13 @@
         ["xpath=//div[2]/div/div/div/a", "xpath:position"],
         ["xpath=//a[contains(.,'我接受')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "fd55288f-8c6d-4a44-a951-80d773733837",
+      "comment": "",
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
       "value": ""
     }, {
       "id": "9c8cd2f6-8cf2-4690-ada1-19837fc25418",
@@ -50,18 +64,18 @@
       ],
       "value": ""
     }, {
+      "id": "b53ed3a5-1345-431f-9b25-6759e896b77e",
+      "comment": "",
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "a7e0ff96-78aa-4ebc-bd06-1b696257c145",
       "comment": "",
-      "command": "clickAt",
+      "command": "click",
       "target": "id=MainContent_txt_To",
-      "targets": [
-        ["id=MainContent_txt_To", "id"],
-        ["name=ctl00$MainContent$txt_To", "name"],
-        ["css=#MainContent_txt_To", "css:finder"],
-        ["xpath=//input[@id='MainContent_txt_To']", "xpath:attributes"],
-        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr[3]/td[2]/div/input", "xpath:idRelative"],
-        ["xpath=//td[2]/div/input", "xpath:position"]
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "5e993e52-d81b-492f-a927-db5fbcf5dd06",
@@ -71,10 +85,17 @@
       "targets": [],
       "value": "matched"
     }, {
+      "id": "42066fd0-8e3f-4bd9-aea2-0d0ea4b4a7eb",
+      "comment": "",
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "60c4d271-7146-47a2-97e5-c1d1e4fb1bad",
       "comment": "",
       "command": "echo",
-      "target": "Finished NRT",
+      "target": "Matched: ${matched}",
       "targets": [],
       "value": ""
     }, {
@@ -82,6 +103,13 @@
       "comment": "",
       "command": "if",
       "target": "${matched}==0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3afb36c8-33e9-4d2b-80ed-a7e43594f85f",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_txt_To",
       "targets": [],
       "value": ""
     }, {
@@ -120,7 +148,21 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "6eb6559d-2a85-4f02-8fdf-e7b2588aa209",
+      "id": "12e44d1b-ce6b-4654-b9c5-c5f8868f7a92",
+      "comment": "",
+      "command": "echo",
+      "target": "Finish NRT",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d814bb2-b74f-4eea-b4e8-5f54fea9ca02",
+      "comment": "",
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1606df8c-8a41-4723-8652-d207ebde129c",
       "comment": "",
       "command": "click",
       "target": "id=MainContent_lit_date1",
@@ -134,34 +176,14 @@
       ],
       "value": ""
     }, {
-      "id": "a460eabd-537e-46cc-8416-8951d918b0a8",
+      "id": "7c6da5c0-5d41-4179-a538-2b53cf0b28f0",
       "comment": "",
-      "command": "click",
-      "target": "css=.active .next",
-      "targets": [
-        ["css=.active .next", "css:finder"],
-        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
-        ["xpath=//div[@id='datepickers-container']/div/nav/div[2]/button", "xpath:idRelative"],
-        ["xpath=//div[2]/button", "xpath:position"],
-        ["xpath=//button[contains(.,'下頁')]", "xpath:innerText"]
-      ],
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
       "value": ""
     }, {
-      "id": "27a76b4e-b008-4b54-ba7f-ccbdc8743d39",
-      "comment": "",
-      "command": "click",
-      "target": "id=MainContent_lit_date1",
-      "targets": [
-        ["id=MainContent_lit_date1", "id"],
-        ["name=ctl00$MainContent$lit_date1", "name"],
-        ["css=#MainContent_lit_date1", "css:finder"],
-        ["xpath=//input[@id='MainContent_lit_date1']", "xpath:attributes"],
-        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr[5]/td/div/input", "xpath:idRelative"],
-        ["xpath=//tr[5]/td/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "cc71ab24-2881-42a6-b696-c696494a53dc",
+      "id": "6fe1ed7b-eb14-4697-9aaf-5407ced0ecb0",
       "comment": "",
       "command": "click",
       "target": "css=.active .datepicker--nav-title",
@@ -170,50 +192,58 @@
         ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
         ["xpath=//div[@id='datepickers-container']/div/nav/button", "xpath:idRelative"],
         ["xpath=//nav/button", "xpath:position"],
-        ["xpath=//button[contains(.,'九月, 2019')]", "xpath:innerText"]
+        ["xpath=//button[contains(.,'七月, 2019')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "908a6f60-6e30-4ca8-a3fd-2fe710b68eec",
+      "id": "ad5c24a0-fb8f-41a2-9a3a-405ba9d4dde6",
       "comment": "",
-      "command": "mouseOver",
-      "target": "css=.active .datepicker--nav-title",
-      "targets": [
-        ["css=.active .datepicker--nav-title", "css:finder"],
-        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
-        ["xpath=//div[@id='datepickers-container']/div/nav/button", "xpath:idRelative"],
-        ["xpath=//nav/button", "xpath:position"],
-        ["xpath=//button[contains(.,'九月, 2019')]", "xpath:innerText"]
-      ],
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
       "value": ""
     }, {
-      "id": "6350017a-9fa3-423f-8d5a-cc72acfdd6f9",
+      "id": "93d4ce2e-982a-4783-b479-fbe60bd0786d",
       "comment": "",
       "command": "click",
-      "target": "id=date-month-6",
+      "target": "id=date-month-5",
       "targets": [
-        ["id=date-month-6", "id"],
-        ["css=#date-month-6", "css:finder"],
-        ["xpath=//div[@id='date-month-6']", "xpath:attributes"],
-        ["xpath=//div[@id='datepickers-container']/div/div[2]/div/div/div[7]", "xpath:idRelative"],
-        ["xpath=//div[7]", "xpath:position"]
+        ["id=date-month-5", "id"],
+        ["css=#date-month-5", "css:finder"],
+        ["xpath=//div[@id='date-month-5']", "xpath:attributes"],
+        ["xpath=//div[@id='datepickers-container']/div/div[2]/div/div/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "c58c1ae6-585d-461c-bf05-056fef938418",
+      "id": "fefeeeba-e7ad-497b-924e-18f04f226a38",
+      "comment": "",
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cce1dea9-22af-4f53-87e8-9d4dec82dfa0",
       "comment": "",
       "command": "click",
-      "target": "id=date-6-一-2019",
+      "target": "id=date-5-日-2019",
       "targets": [
-        ["id=date-6-一-2019", "id"],
-        ["css=tr:nth-child(1) #date-6-\\4E00-2019", "css:finder"],
-        ["xpath=//button[@id='date-6-一-2019']", "xpath:attributes"],
-        ["xpath=//div[@id='datepickers-container']/div/div[2]/table/tbody/tr/td/button", "xpath:idRelative"],
-        ["xpath=//td/button", "xpath:position"]
+        ["id=date-5-日-2019", "id"],
+        ["css=tr:nth-child(1) #date-5-\\65E5-2019", "css:finder"],
+        ["xpath=//button[@id='date-5-日-2019']", "xpath:attributes"],
+        ["xpath=//div[@id='datepickers-container']/div/div[2]/table/tbody/tr/td[7]/button", "xpath:idRelative"],
+        ["xpath=//td[7]/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "e0b3b990-3206-4113-ac6b-6c206c504d7a",
+      "id": "5c7317d3-a553-4d3b-9279-7405421f60ba",
+      "comment": "",
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d7d7c1f-01c9-4be3-a39c-0bbfe2199205",
       "comment": "",
       "command": "click",
       "target": "css=.active .datepicker--button:nth-child(2)",
@@ -226,9 +256,23 @@
       ],
       "value": ""
     }, {
+      "id": "d001c889-b356-4221-b8f3-cb1bc3d23b06",
+      "comment": "",
+      "command": "pause",
+      "target": "1500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9949ef4-7fc3-42a7-954f-78faea7187ad",
+      "comment": "",
+      "command": "echo",
+      "target": "Finish Calendar",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "06ea79ab-f3c2-456c-9160-ec8d76823f1c",
       "comment": "",
-      "command": "clickAt",
+      "command": "click",
       "target": "id=MainContent_btn_ok",
       "targets": [],
       "value": ""
