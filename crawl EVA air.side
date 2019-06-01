@@ -14,14 +14,56 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "e092c88a-6ae0-4b28-9fe1-81c5951c9bbc",
+      "id": "04d6aa75-ea63-44d0-95c2-24d6a8a07859",
       "comment": "",
-      "command": "check",
-      "target": "id=MainContent_Radio3",
+      "command": "echo",
+      "target": "Window Loaded",
       "targets": [],
       "value": ""
     }, {
-      "id": "04d6aa75-ea63-44d0-95c2-24d6a8a07859",
+      "id": "ed8f1eb8-6470-4456-915d-e8b7bb70bb20",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "id=cboxWrapper",
+      "targets": [],
+      "value": "CookieHandler"
+    }, {
+      "id": "fc15812b-a837-48e4-bc10-0c3a227c9812",
+      "comment": "",
+      "command": "if",
+      "target": "${CookieHandler}==1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d2aef2b-e6c9-4d4a-a48b-f0ddd79dea0a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=我接受",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82aced52-e520-4113-ad77-32a424035417",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e092c88a-6ae0-4b28-9fe1-81c5951c9bbc",
+      "comment": "",
+      "command": "check",
+      "target": "css=#MainContent_Radio3",
+      "targets": [
+        ["id=MainContent_Radio3", "id"],
+        ["name=ctl00$MainContent$rbn_Segment", "name"],
+        ["css=#MainContent_Radio3", "css:finder"],
+        ["xpath=//input[@id='MainContent_Radio3']", "xpath:attributes"],
+        ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr/td/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8cd2f6-8cf2-4690-ada1-19837fc25418",
       "comment": "",
       "command": "echo",
       "target": "Clicked 單程",
