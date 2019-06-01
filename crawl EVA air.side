@@ -14,39 +14,19 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "ed8f1eb8-6470-4456-915d-e8b7bb70bb20",
-      "comment": "",
-      "command": "storeXpathCount",
-      "target": "id=cboxOverlay",
-      "targets": [],
-      "value": "CookieHandler"
-    }, {
-      "id": "04d6aa75-ea63-44d0-95c2-24d6a8a07859",
-      "comment": "",
-      "command": "echo",
-      "target": "Element Count: ${CookieHandler}",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "fc15812b-a837-48e4-bc10-0c3a227c9812",
-      "comment": "",
-      "command": "if",
-      "target": "${CookieHandler}==1",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "0d2aef2b-e6c9-4d4a-a48b-f0ddd79dea0a",
       "comment": "",
       "command": "clickAt",
-      "target": "linkText=我接受",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "82aced52-e520-4113-ad77-32a424035417",
-      "comment": "",
-      "command": "end",
-      "target": "",
-      "targets": [],
+      "target": "//*[@id=\"cookies\"]/div/a",
+      "targets": [
+        ["linkText=我接受", "linkText"],
+        ["css=.submit-box:nth-child(2) > .positive:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'我接受')]", "xpath:link"],
+        ["xpath=//div[@id='cookies']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[27]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'我接受')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
       "id": "e092c88a-6ae0-4b28-9fe1-81c5951c9bbc",
