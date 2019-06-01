@@ -14,6 +14,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "f796b750-4956-4ef2-bf21-3243d0810d2a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "//*[@id=\"cookies\"]/div/a",
+      "targets": [],
+      "value": "2000"
+    }, {
       "id": "0d2aef2b-e6c9-4d4a-a48b-f0ddd79dea0a",
       "comment": "",
       "command": "clickAt",
@@ -29,6 +36,13 @@
       ],
       "value": ""
     }, {
+      "id": "9c8cd2f6-8cf2-4690-ada1-19837fc25418",
+      "comment": "",
+      "command": "echo",
+      "target": "Clicked 單程",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "e092c88a-6ae0-4b28-9fe1-81c5951c9bbc",
       "comment": "",
       "command": "check",
@@ -41,13 +55,6 @@
         ["xpath=//article[@id='content']/section[2]/div[4]/fieldset/div/table/tbody/tr/td/fieldset/div/input", "xpath:idRelative"],
         ["xpath=//fieldset/div/input", "xpath:position"]
       ],
-      "value": ""
-    }, {
-      "id": "9c8cd2f6-8cf2-4690-ada1-19837fc25418",
-      "comment": "",
-      "command": "echo",
-      "target": "Clicked 單程",
-      "targets": [],
       "value": ""
     }, {
       "id": "a7e0ff96-78aa-4ebc-bd06-1b696257c145",
