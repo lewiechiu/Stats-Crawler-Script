@@ -14,17 +14,10 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "f796b750-4956-4ef2-bf21-3243d0810d2a",
-      "comment": "",
-      "command": "waitForElementVisible",
-      "target": "//*[@id=\"cookies\"]/div/a",
-      "targets": [],
-      "value": "2000"
-    }, {
       "id": "0d2aef2b-e6c9-4d4a-a48b-f0ddd79dea0a",
       "comment": "",
       "command": "clickAt",
-      "target": "//*[@id=\"cookies\"]/div/a",
+      "target": "xpath=//div[@id='cookies']/div/a",
       "targets": [
         ["linkText=我接受", "linkText"],
         ["css=.submit-box:nth-child(2) > .positive:nth-child(1)", "css:finder"],
