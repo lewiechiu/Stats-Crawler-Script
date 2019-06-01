@@ -14,19 +14,19 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "04d6aa75-ea63-44d0-95c2-24d6a8a07859",
-      "comment": "",
-      "command": "echo",
-      "target": "Window Loaded",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "ed8f1eb8-6470-4456-915d-e8b7bb70bb20",
       "comment": "",
       "command": "storeXpathCount",
-      "target": "id=cboxWrapper",
+      "target": "id=cboxOverlay",
       "targets": [],
       "value": "CookieHandler"
+    }, {
+      "id": "04d6aa75-ea63-44d0-95c2-24d6a8a07859",
+      "comment": "",
+      "command": "echo",
+      "target": "Element Count: ${CookieHandler}",
+      "targets": [],
+      "value": ""
     }, {
       "id": "fc15812b-a837-48e4-bc10-0c3a227c9812",
       "comment": "",
